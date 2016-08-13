@@ -1,0 +1,60 @@
+.tokenfield {
+	display: inline-block;
+	background: #fff;
+	border: 1px solid #eee;
+	border-radius: 4px;
+	width: 100%;
+}
+
+.token {
+	display: inline-block;
+  background: #3bafda;
+  border-radius: 4px;
+  margin: 0 5px;
+  color: #fff;
+  padding: 5px 8px;
+}
+
+.winner {
+	display: inline-block;
+	margin: 8px 10px;
+}
+
+.closer {
+	margin-left: 10px;
+}
+
+.closer:hover {
+	cursor: pointer;
+}
+
+.label-form {
+	margin-bottom: 20px;
+}
+
+.label-form > div:first-of-type {
+	font-weight: bold;
+}
+
+.label-form > div:last-of-type {
+	opacity: 0.6;
+}
+
+.wrapper-form, .wrapper-winner, .wrapper-table {
+	background: #fff;
+	padding: 20px;
+	margin: 20px 0;
+	border-radius: 4px;
+}
+
+.wrapper-form {
+	padding-bottom: 50px;
+}
+
+#winnerButton {
+	width: 100%;
+}
+
+#saveButton {
+	width: 100px;
+}
